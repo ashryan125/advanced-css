@@ -1,6 +1,7 @@
 :root {
     --dark-gray: #31343d;
     --light-blue: #92cccd;
+    --dark-blue: #445876;
     font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -41,7 +42,7 @@ header nav ul li {
     margin: auto -10px;
 }
 
-header nav ul li:after {
+header nav ul li::after {
     content: "";
     display: block;
     margin: 0 auto;
@@ -105,16 +106,29 @@ main {
 }
 
 .content-container h3 {
-    color: var(--secondary-color);
+    color: var(--dark-blue);
     font-size: 46px;
     flex: 1 30%;
     text-align: right;
-    color: var(--dark-gray);
 }
 
 .section-content {
-
+    margin-left: 15px;
+    padding-left: 2.5%;
+    border-left: 4px solid var(--dark-blue);
 }
+
+.section-content p {
+    font-weight: lighter;
+    color: var(--dark-blue);
+    line-height: 1.7;
+}
+
+/* .section-content::before{
+    content: "";
+    border-right: 4px solid var(--dark-blue);
+} */
+
 
 /* section styles end */
 

@@ -27,7 +27,7 @@
 }
 
 .name h1 a {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 600;
     color: var(--dark-gray);
 }
@@ -82,6 +82,7 @@ header nav ul li a {
     padding: 10px 20px;
     color: var(--dark-gray);
     align-items: flex-end;
+    font-size: 30px;
 }
 /* hero styles end */
 
@@ -96,26 +97,27 @@ main {
 /* section styles start */
 .content-container {
     margin: 50px auto;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     width: 80%;
     display: flex;
 }
 
-.flex-row {
-    display: flex;
-}
+
 
 .content-container h3 {
     color: var(--dark-blue);
     font-size: 46px;
-    flex: 1 30%;
     text-align: right;
+    line-height: 1.1;
+    flex: 1 20%;
+    align-items: flex-start; 
 }
 
 .section-content {
     margin-left: 15px;
     padding-left: 2.5%;
     border-left: 4px solid var(--dark-blue);
+    flex: 1 80%;
 }
 
 .section-content p {
@@ -124,10 +126,22 @@ main {
     line-height: 1.7;
 }
 
-/* .section-content::before{
-    content: "";
-    border-right: 4px solid var(--dark-blue);
-} */
+#contact-links ul {
+    list-style: none;
+    margin-top: 2.5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    padding: 5px 15px;
+    border-bottom: 4px solid var(--dark-blue);
+}
+
+
 
 
 /* section styles end */

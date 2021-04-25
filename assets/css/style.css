@@ -82,5 +82,41 @@ header nav ul li a {
     color: var(--dark-gray);
     align-items: flex-end;
 }
-
 /* hero styles end */
+
+/* main content styles start */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ededf6;
+}
+
+/* section styles start */
+.content-container {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.content-container h3 {
+    color: var(--secondary-color);
+    font-size: 46px;
+    flex: 1 30%;
+    text-align: right;
+    color: var(--dark-gray);
+}
+
+.section-content {
+
+}
+
+/* section styles end */
+
+
+/* main content styles end */

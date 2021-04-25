@@ -103,7 +103,6 @@ main {
 }
 
 
-
 .content-container h3 {
     color: var(--dark-blue);
     font-size: 46px;
@@ -125,7 +124,22 @@ main {
     color: var(--dark-blue);
     line-height: 1.7;
 }
+/* section styles end */
 
+/* work styles start */
+
+
+.portfolio {
+    border: 3px solid var(--light-blue);
+}
+
+.portfolio-info {
+    background-color: var(--light-blue);
+}
+
+/* work styles end */
+
+/* contact styles start */
 #contact-links ul {
     list-style: none;
     margin-top: 2.5%;
@@ -140,11 +154,9 @@ main {
     padding: 5px 15px;
     border-bottom: 4px solid var(--dark-blue);
 }
+/* contact styles end */
 
 
-
-
-/* section styles end */
 
 
 /* main content styles end */

@@ -181,3 +181,16 @@ main {
 
 
 /* main content styles end */
+
+/* footer styles start */
+footer {
+    background-color: var(--dark-gray);
+    padding: 15px 0;
+}
+
+footer h5 {
+    color: white;
+    text-align: center;
+}
+
+/* footer styles end */

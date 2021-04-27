@@ -107,7 +107,7 @@ main {
 /* section styles start */
 .content-container {
     margin: 50px auto;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     width: 80%;
     display: flex;
 }
@@ -141,7 +141,6 @@ main {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
     gap: 15px 15px;
     grid-template-areas:
       "Project-1 Project-1"
@@ -149,25 +148,76 @@ main {
       "Project-4 Project-5";
   }
   
-  .Project-1 { grid-area: Project-1; }
-  
-  .Project-2 { grid-area: Project-2; }
-  
-  .Project-3 { grid-area: Project-3; }
-  
-  .Project-4 { grid-area: Project-4; }
-  
-  .Project-5 { grid-area: Project-5; }
-  
-
 .portfolio {
-    border: 3px solid var(--light-blue);
+    border: 4.5px solid var(--light-blue);
+    display: flex;
+    align-items: flex-end;
+    padding-left: 0;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
 .portfolio-info {
     background-color: var(--light-blue);
+    padding: 5px 10px 10px 15px;
+    position: absolute;
+    margin-bottom: 20px;
 }
 
+#photo-click-01 {
+    background-image: url('../../assets/images/project-01.jpg');
+
+}
+
+#photo-click-02 {
+    background-image: url('../../assets/images/project-02.jpg');
+
+}
+
+#photo-click-03 {
+    background-image: url('../../assets/images/project-03.jpg');
+
+}
+
+#photo-click-04 {
+    background-image: url('../../assets/images/project-04.jpg');
+
+}
+
+#photo-click-05 {
+    background-image: url('../../assets/images/project-05.jpg');
+
+}
+
+.photo-click {
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: 250px;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+}
+
+.Project-1 { 
+    grid-area: Project-1;
+}
+
+.Project-2 { 
+    grid-area: Project-2; 
+}
+
+.Project-3 { 
+    grid-area: Project-3;
+}
+
+.Project-4 { 
+    grid-area: Project-4; 
+}
+
+.Project-5 { 
+    grid-area: Project-5; 
+}
 /* work styles end */
 
 /* contact styles start */
@@ -187,9 +237,6 @@ main {
 }
 /* contact styles end */
 
-
-
-
 /* main content styles end */
 
 /* footer styles start */
@@ -202,5 +249,4 @@ footer h5 {
     color: white;
     text-align: center;
 }
-
 /* footer styles end */

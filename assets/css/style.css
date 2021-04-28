@@ -282,3 +282,75 @@ footer h5 {
     }
     
 }
+
+@media screen and (max-width: 768px) {
+    
+    .hero {
+        background-image: url(../images/hero.jpg);
+        background-size: cover;
+        background-position: top;
+        height: 200px;
+    }
+    
+    .hero-title {
+        display: none;
+    }
+
+
+    .content-container {
+        flex-direction: column;
+    }
+
+    .content-container h3 {
+        text-align: center;
+        border-bottom: 3px solid var(--dark-blue);
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+
+    .content-container h3 br {
+        display: none;
+    }
+
+    .section-content {
+        border: none;
+    }
+
+    .grid-container {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px 0 0 0;
+    }
+
+    #contact-links ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        font-size: 2em;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    header nav ul {
+        width: 200px;
+        text-align: center;
+    }
+
+    header nav ul li a {
+        font-size: 26px;
+    }
+
+    header nav ul li::after {
+        display: none;
+    }
+
+    .hero {
+        display: none;
+    }
+
+}
